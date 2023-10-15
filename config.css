@@ -1,0 +1,34 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+/* Variables For SunnyUX CSS Library */
+:root {
+    --container-max-width: 100%;
+    --nav-height: 50px; 
+    --nav-text-color: var(--grey); 
+    --nav-text-color-hover: var(--white); 
+    --nav-bg: var(--dark-transparent); 
+    --nav-hover-bottom: var(--darkblue); 
+}
+
+/* Font Setting */
+* {
+    font-family: 'Prompt';
+}
+
+.btn {
+    font-family: 'Prompt';
+}
+
+input {
+    font-family: 'Prompt';
+}
+
+/* User Profile Element (used in view.php) */
+.user_profile {
+    min-width: 300px;
+    display: flex;
+    border: 1.5px solid var(--grey);
+    max-width: 100%;
+    box-sizing: border-box;
+}

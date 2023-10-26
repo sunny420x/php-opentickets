@@ -43,7 +43,7 @@ if(isset($_POST['login'])) {
         <?php
         require 'alert.php';
         ?>
-        <div class="container" id="main">
+        <div class="container mt-40" id="main">
         <div class="card mx-auto white rounded p-30" style="width: 100%; box-sizing: border-box;">
             <img src="image/open-ticket-logo.png" class="w-100" alt="OpenTicket Logo">
             <h1 class="bl-darkblue">Login</h1>
